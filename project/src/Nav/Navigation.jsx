@@ -28,13 +28,9 @@ function Navigation(){
       
 
       </header>
-      <Routes>
-        <Route path='/labtechnician' element={<LabTechnician />} />
-        <Route path='/result' element={<ResultReporting />} />
-        
-      </Routes>
+
     </>
-  )
+  );
 }
 
 export default Navigation;
